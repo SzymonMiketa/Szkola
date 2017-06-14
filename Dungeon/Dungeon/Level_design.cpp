@@ -97,19 +97,12 @@ void Level_design::Update_Level(sf::RenderWindow & window)
 
 void Level_design::New_Game()
 {
-	try {
 		Entities.delete_objects();
 		make_player();
 		CurrentLevel = 1;
 		ChangedLevel = true;
 		Game_Ended = false;
 		Change_Level();
-	}
-	catch (int a)
-	{
-		throw a;
-	}
-
 }
 
 

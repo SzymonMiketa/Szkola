@@ -39,6 +39,5 @@ public:
 	void HitByProjectile(bool & a, int & b);
 	void BuffedByPotion();
 	const type_info & return_type();
-	void show_death_screen();
 
 };

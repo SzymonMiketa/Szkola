@@ -28,7 +28,6 @@ void Still_Shooting_Monster::update(TileMap & map, Create_objects & o, Audio & a
 		}
 	}
 	isReloaded += ReloadSpeed;
-	Enemy::update_sprite();
 }
 
 

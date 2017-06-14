@@ -212,7 +212,3 @@ const type_info & Player::return_type()
 	return typeid(this);
 }
 
-void Player::show_death_screen()
-{
-
-}

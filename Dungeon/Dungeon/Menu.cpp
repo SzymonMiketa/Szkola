@@ -111,7 +111,7 @@ void Menu::Down()
 
 void Menu::ClickedMenu(sf::RenderWindow & window, Level_design * L)
 {
-	try {
+	
 		switch (SelectedItem)
 		{
 		case 0:
@@ -127,9 +127,8 @@ void Menu::ClickedMenu(sf::RenderWindow & window, Level_design * L)
 			window.close();
 			break;
 		}
-	}
-	catch (string s)
-	{
-		throw s;
-	}
+
 }
+
+	
+
