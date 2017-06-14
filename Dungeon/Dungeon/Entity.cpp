@@ -41,5 +41,7 @@ void Entity::SetPosition(int x, int y)
 {
 }
 
-
+void Entity::Give_Exp(int a)
+{
+}
 

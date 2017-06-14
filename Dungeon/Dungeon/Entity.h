@@ -40,5 +40,6 @@ public:
 	bool check_collision(const Entity * e) const;
 	void return_location(float & x_arg, float & y_arg);
 	virtual void SetPosition(int x, int y);
+	virtual void Give_Exp(int a);
 
 };
